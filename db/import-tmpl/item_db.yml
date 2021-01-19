@@ -117,13 +117,13 @@ Body:
     Refineable: true
     Script: |
       if (getrefine()>9) {
-         bonus2 bUnbreakableWeapon;
+         bonus bUnbreakableWeapon;
       }
   - Id: 7321
     AegisName: Fragment_Of_Crystal
     Name: Fragment Of Crystal
     Type: Etc
-    Sell: 207
+    Buy: 414
     Weight: 1
   - Id: 18968
     AegisName: Jinn_Marin_Balloon
@@ -150,49 +150,49 @@ Body:
     AegisName: Ripped_Paper_Sheet
     Name: Ripped Paper Sheet
     Type: Etc
-    Sell: 450
+    Buy: 900
     Weight: 1
   - Id: 25262
     AegisName: Well_Dried_Clover
     Name: Well Dried Clover
     Type: Etc
-    Sell: 600
+    Buy: 1200
     Weight: 1
   - Id: 25263
     AegisName: Short_Bat_Fur
     Name: Short Bat Fur
     Type: Etc
-    Sell: 395
+    Buy: 790
     Weight: 1
   - Id: 25264
     AegisName: Clump_of_Nightmares
     Name: Clump of Nightmares
     Type: Etc
-    Sell: 411
+    Buy: 822
     Weight: 1
   - Id: 25265
     AegisName: Glowing_Spores
     Name: Glowing Spores
     Type: Etc
-    Sell: 171
+    Buy: 342
     Weight: 1
   - Id: 25266
     AegisName: Dried_Yggdrasil_Leaf
     Name: Dried Yggdrasil Leaf
     Type: Etc
-    Sell: 225
+    Buy: 550
     Weight: 1
   - Id: 25267
     AegisName: Suspicious_Magical_Circle
     Name: Suspicious_Magical_Circle
     Type: Etc
-    Sell: 450
+    Buy: 900
     Weight: 1
   - Id: 25268
     AegisName: Sticky_Blood
     Name: Sticky Blood
     Type: Etc
-    Sell: 0
+    Buy: 0
     Weight: 0
     Trade:
       Override: 100
@@ -208,7 +208,7 @@ Body:
     AegisName: Mushroom_Sap
     Name: Mushroom Sap
     Type: Etc
-    Sell: 0
+    Buy: 0
     Weight: 0
     Trade:
       Override: 100
@@ -224,7 +224,7 @@ Body:
     AegisName: Wavy_Mane
     Name: Wavy Mane
     Type: Etc
-    Sell: 0
+    Buy: 0
     Weight: 0
     Trade:
       Override: 100
