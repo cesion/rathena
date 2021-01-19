@@ -38,3 +38,12 @@
 Header:
   Type: INSTANCE_DB
   Version: 1
+Body:
+- Id: 1
+  Name: EDDA Biolabs
+  Enter:
+    Map: 1@gol1
+    X: 196
+    Y: 32
+  AdditionalMaps:
+    1@gol2: true

@@ -1,0 +1,39 @@
+//===== rAthena Script ======================================= 
+//= Illusion Vampire 'Episode 17.1'  (kRO Servers)
+//===== By: ================================================== 
+//= NotKappa#2400 - https://rathena.org/board/profile/18391-notkappa/
+//= 1.0 (Initial release)
+//===== Additional Comments: ================================= 
+//= To Install add the file path to npc/scripts_custom.conf file
+//============================================================
+
+//= Mob Spawn
+gef_d01_i,0,0	monster	Matte Drainliars	3750,25,5000,15000,"hunt#illuvamp::OnKillDrainlair"
+gef_d01_i,0,0	monster	Undead Zombie	3751,10,15000,15000,"",4
+gef_d01_i,0,0	monster	Illusion Zombie	3752,20,15000
+gef_d01_i,0,0	monster	Illusion Ghoul	3753,30,15000
+gef_d01_i,0,0	monster	Sweet Nightmare	3754,25,15000
+gef_d01_i,0,0	monster	White Plant	1082,12,180000
+gef_d01_i,0,0	monster	Blue Plant	1079,12,180000
+
+gef_d01_i,88,133	monster	Illusion Black Mushroom#1	3755,1,180000,190000,"hunt#illuvamp::OnKillMushroom"
+gef_d01_i,244,140	monster	Illusion Black Mushroom#2	3755,1,180000,190000,"hunt#illuvamp::OnKillMushroom"
+gef_d01_i,148,226	monster	Illusion Black Mushroom#3	3755,1,180000,190000,"hunt#illuvamp::OnKillMushroom"
+gef_d01_i,153,229	monster	Illusion Black Mushroom#4	3755,1,180000,190000,"hunt#illuvamp::OnKillMushroom"
+gef_d01_i,201,61	monster	Illusion Black Mushroom#5	3755,1,180000,190000,"hunt#illuvamp::OnKillMushroom"
+gef_d01_i,0,0	monster	Illusion Black Mushroom	3755,10,180000,190000,"hunt#illuvamp::OnKillMushroom"
+
+//gef_d01_i,0,0,0,0	monster	Illusion Black Mushroom	3755,10,5000
+//gef_d01_i,0,0,0,0	monster	Illusion Drainliar	3750,30,5000
+//gef_d01_i,0,0,0,0	monster	Illusion Zombie	3751,30,5000
+//gef_d01_i,0,0,0,0	monster	Illusion Zombie	3752,15,9000
+//gef_d01_i,0,0,0,0	monster	Illusion Ghoul	3753,30,5000
+//gef_d01_i,0,0,0,0	monster	Illusion Nightmare	3754,30,5000
+//gef_d01_i,0,0,0,0	monster	Bream	3756,2,600000
+
+//= Mapflag
+gef_d01_i	mapflag	nobranch
+gef_d01_i	mapflag	nopenalty
+gef_d01_i	mapflag	nomemo
+gef_d01_i	mapflag	loadevent
+//gef_d01_i	mapflag	nosave	SavePoint

@@ -86,7 +86,156 @@ Header:
   Type: ITEM_DB
   Version: 1
 
-#Body:
+Body:
+  - Id: 25786
+    AegisName: Somatology_Research_Document
+    Name: Somatology Research Document
+    Type: Etc
+    Weight: 1
+  - Id: 25787
+    AegisName: Somatology_Experimental_Fragment
+    Name: Somatology Experimental Fragment
+    Type: Etc
+    Weight: 1
+  - Id: 1943
+    AegisName: Erhu
+    Name: Erhu
+    Type: Weapon
+    SubType: Musical
+    Buy: 20
+    Weight: 70
+    Attack: 50
+    Range: 1
+    Slots: 3
+    Jobs:
+      BardDancer: true
+    Gender: Male
+    Locations:
+      Right_Hand: true
+    WeaponLevel: 2
+    EquipLevelMin: 90
+    Refineable: true
+    Script: |
+      if (getrefine()>9) {
+         bonus2 bUnbreakableWeapon;
+      }
+  - Id: 7321
+    AegisName: Fragment_Of_Crystal
+    Name: Fragment Of Crystal
+    Type: Etc
+    Sell: 207
+    Weight: 1
+  - Id: 18968
+    AegisName: Jinn_Marin_Balloon
+    Name: Jinn Marin Balloon
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Defense: 5
+    Slots: 0
+    Jobs:
+      All: true
+    Locations:
+      Head_Low: true
+    EquipLevelMin: 1
+    Refineable: false
+    View: 1133
+    Script: |
+      bonus bAtk,5;
+      bonus bMatk,5;
+      bonus bMaxHP,100;
+      bonus bInt,1;
+      bonus bDex,1;
+  - Id: 25261
+    AegisName: Ripped_Paper_Sheet
+    Name: Ripped Paper Sheet
+    Type: Etc
+    Sell: 450
+    Weight: 1
+  - Id: 25262
+    AegisName: Well_Dried_Clover
+    Name: Well Dried Clover
+    Type: Etc
+    Sell: 600
+    Weight: 1
+  - Id: 25263
+    AegisName: Short_Bat_Fur
+    Name: Short Bat Fur
+    Type: Etc
+    Sell: 395
+    Weight: 1
+  - Id: 25264
+    AegisName: Clump_of_Nightmares
+    Name: Clump of Nightmares
+    Type: Etc
+    Sell: 411
+    Weight: 1
+  - Id: 25265
+    AegisName: Glowing_Spores
+    Name: Glowing Spores
+    Type: Etc
+    Sell: 171
+    Weight: 1
+  - Id: 25266
+    AegisName: Dried_Yggdrasil_Leaf
+    Name: Dried Yggdrasil Leaf
+    Type: Etc
+    Sell: 225
+    Weight: 1
+  - Id: 25267
+    AegisName: Suspicious_Magical_Circle
+    Name: Suspicious_Magical_Circle
+    Type: Etc
+    Sell: 450
+    Weight: 1
+  - Id: 25268
+    AegisName: Sticky_Blood
+    Name: Sticky Blood
+    Type: Etc
+    Sell: 0
+    Weight: 0
+    Trade:
+      Override: 100
+      NoDrop: true
+      NoTrade: true
+      NoSell: false
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+  - Id: 25269
+    AegisName: Mushroom_Sap
+    Name: Mushroom Sap
+    Type: Etc
+    Sell: 0
+    Weight: 0
+    Trade:
+      Override: 100
+      NoDrop: true
+      NoTrade: true
+      NoSell: false
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+  - Id: 25270
+    AegisName: Wavy_Mane
+    Name: Wavy Mane
+    Type: Etc
+    Sell: 0
+    Weight: 0
+    Trade:
+      Override: 100
+      NoDrop: true
+      NoTrade: true
+      NoSell: false
+      NoCart: true
+      NoStorage: true
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
 # THQ Quest Items
 #=============================================================
 #  - Id: 1998
