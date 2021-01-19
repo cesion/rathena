@@ -312,7 +312,7 @@ payon_in03,33,95,3	script	Muyeon#moonlight_in	4_F_TAEKWON,{
 		close;
 	}
 	if(illusion_moonlight == 2){
-		pcblockall getcharid(3),1;
+		//pcblockall getcharid(3),1;
 		sleep2 2000;
 		npctalk "Whatever you say, I'm not doing it anymore.","Muyeon#moonlight_in",bc_self;
 		sleep2 2000;
@@ -349,7 +349,7 @@ payon_in03,33,95,3	script	Muyeon#moonlight_in	4_F_TAEKWON,{
 		completequest 7777;
 		setquest 7778;
 		illusion_moonlight = 3;
-		pcblockall getcharid(3),0;
+		//pcblockall getcharid(3),0;
 		end;
 	}
 	if(illusion_moonlight == 3){
@@ -426,7 +426,7 @@ payon_in03,33,95,3	script	Muyeon#moonlight_in	4_F_TAEKWON,{
 		mes "[ Muyeon ]";
 		mes "Relax... and focus your mind on it ... open your mind to its energy.";
 		close2;
-		pcblockall getcharid(3),1;
+		//pcblockall getcharid(3),1;
 		npctalk "Wandering souls, listen and behold!","",bc_self;
 		specialeffect 513;
 		specialeffect2 334;
@@ -499,7 +499,7 @@ payon_in03,33,95,3	script	Muyeon#moonlight_in	4_F_TAEKWON,{
 		illusion_moonlight = 5;
 		completequest 7779;
 		setquest 7780;
-		pcblockall getcharid(3),0;
+		//pcblockall getcharid(3),0;
 		warp "pay_dun03",145,43;
 		end;
 	}
