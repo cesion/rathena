@@ -47354,6 +47354,7 @@ Body:
     Type: Delayconsume
     Weight: 10
     Script: |
+      synthesisui 23250;
   - Id: 23251
     AegisName: Rose_Bundle_A
     Name: Rose Bundle A
@@ -48816,6 +48817,7 @@ Body:
     Type: Delayconsume
     Weight: 10
     Script: |
+      synthesisui 100408;
   - Id: 100158
     AegisName: Mado_Box02
     Name: Mado Strengthening Suit
